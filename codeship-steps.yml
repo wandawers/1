@@ -21,7 +21,3 @@
   service: test
   tag: (\d+(\.\d+)+)
   command: ./scripts/verify
-$ jet run PRIMARY_SERVICE_NAME
-# locate CONTAINER_ID
-$ docker ps -a
-$ docker exec -it CONTAINER_ID /bin/sh
