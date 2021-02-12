@@ -13,4 +13,4 @@ RUN go get golang.org/dl/go1.14.10 && \
 WORKDIR /go/src/github.com/codeship/codeship-go
 COPY . .
 
-RUN make setup
+RUN make setu
